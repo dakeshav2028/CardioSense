@@ -18,7 +18,7 @@ CardioSense is a full-stack, end-to-end clinical assessment tool designed to pre
 
 The platform pairs a robust Python/FastAPI machine learning engine with a stunning, highly-animated frontend built on React and Vite. 
 
-> **Live Demo:** [View on Vercel](#) *([Add your Vercel link here!](https://cardio-sense-sandy.vercel.app/))*
+> **Live Demo:** [View on Vercel](#) *(https://cardio-sense-sandy.vercel.app/)*
 
 ---
 
