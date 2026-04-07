@@ -43,18 +43,26 @@ CardioSense was built to change that. It gives anyone — regardless of access t
 
 ## 🖥️ Screenshots
 
-> **Multi-step input form** — Smooth Framer Motion transitions guide users through their health data
+<div align="center">
+  <img src="./Screenshot%202026-04-07%20230927.png" alt="Multi-step Input Form" width="800" />
+  <p><i><b>Step 4 — Symptoms:</b> Smooth Framer Motion transitions guide users through their medical data.</i></p>
+  <br>
+  <img src="./Screenshot%202026-04-07%20230957.png" alt="CardioSense Dashboard" width="800" />
+  <p><i><b>Risk Dashboard:</b> Dynamic score gauge, SHAP waterfall explanation, and longitudinal trend lines.</i></p>
+  <br>
+  <img src="./Screenshot%202026-04-07%20231023.png" alt="Recommendation Panel" width="800" />
+  <p><i><b>Actionable Guidance:</b> Tiered clinical recommendations with priority flags for patient safety.</i></p>
+</div>
 
-> **Risk Dashboard** — Live score gauge, SHAP waterfall chart, and trend line in one view
+---
 
-> **Recommendation Panel** — Tiered, actionable clinical guidance with High/Medium/Low priority flags
+## 📈 Model Evaluation Plots
 
-```
-<!-- Uploading "Screenshot 2026-04-07 230927.png"... -->
-<!-- Uploading "Screenshot 2026-04-07 230957.png"... -->
-<!-- Uploading "Screenshot 2026-04-07 231023.png"... -->
-```
+| Confusion Matrix + ROC Curve | SHAP Summary | SHAP Waterfall |
+|:---:|:---:|:---:|
+| <img src="./final_evaluation.png" width="250" /> | <img src="./shap_summary.png" width="250" /> | <img src="./shap_waterfall.png" width="250" /> |
 
+---
 ---
 
 ## 🤖 Model Performance
@@ -73,7 +81,7 @@ The model was benchmarked against Logistic Regression, SVM, Gradient Boosting, a
 
 | Confusion Matrix + ROC Curve | SHAP Summary | SHAP Waterfall |
 |---|---|---|
-| ![Evaluation]<!-- Uploading "final_evaluation.png"... --> | ![SHAP Summary]<!-- Uploading "shap_summary.png"... --> | ![Waterfall]<!-- Uploading "shap_waterfall.png"... --> |
+| <!-- Uploading "final_evaluation.png"... --> | <!-- Uploading "shap_summary.png"... --> | <!-- Uploading "shap_waterfall.png"... --> |
 ---
 
 ## 🧠 How SHAP Explainability Works
