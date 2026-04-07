@@ -49,11 +49,10 @@ CardioSense was built to change that. It gives anyone — regardless of access t
 
 > **Recommendation Panel** — Tiered, actionable clinical guidance with High/Medium/Low priority flags
 
-*Add your screenshots here:*
 ```
-docs/screenshots/form.png
-docs/screenshots/dashboard.png
-docs/screenshots/recommendations.png
+<!-- Uploading "Screenshot 2026-04-07 230927.png"... -->
+<!-- Uploading "Screenshot 2026-04-07 230957.png"... -->
+<!-- Uploading "Screenshot 2026-04-07 231023.png"... -->
 ```
 
 ---
@@ -74,8 +73,7 @@ The model was benchmarked against Logistic Regression, SVM, Gradient Boosting, a
 
 | Confusion Matrix + ROC Curve | SHAP Summary | SHAP Waterfall |
 |---|---|---|
-| ![Evaluation](docs/plots/final_evaluation.png) | ![SHAP Summary](docs/plots/shap_summary.png) | ![Waterfall](docs/plots/shap_waterfall.png) |
-
+| ![Evaluation]<!-- Uploading "final_evaluation.png"... --> | ![SHAP Summary]<!-- Uploading "shap_summary.png"... --> | ![Waterfall]<!-- Uploading "shap_waterfall.png"... --> |
 ---
 
 ## 🧠 How SHAP Explainability Works
@@ -286,16 +284,6 @@ If you experience chest pain, shortness of breath, or any cardiac symptoms — *
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Mobile app (React Native)
-- [ ] Wearable device integration (Fitbit, Apple Watch)
-- [ ] Multi-language support
-- [ ] PDF report export per assessment
-- [ ] Doctor-sharing portal
-- [ ] Expanded to other CVD subtypes (stroke, arrhythmia)
-
----
 
 ## 📚 References
 
@@ -309,7 +297,7 @@ If you experience chest pain, shortness of breath, or any cardiac symptoms — *
 
 ## 👨‍💻 Author
 
-**Dakeshav** — built CardioSense from scratch as a full-stack ML project to address the rising early-age cardiac mortality crisis.
+**Keshav Sarda** — built CardioSense from scratch as a full-stack ML project to address the rising early-age cardiac mortality crisis.
 
 [![GitHub](https://img.shields.io/badge/GitHub-dakeshav2028-181717?style=flat&logo=github)](https://github.com/dakeshav2028)
 
