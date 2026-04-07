@@ -43,26 +43,20 @@ CardioSense was built to change that. It gives anyone — regardless of access t
 
 ## 🖥️ Screenshots
 
+
+
+
 <div align="center">
-  <img src="./Screenshot%202026-04-07%20230927.png" alt="Multi-step Input Form" width="800" />
-  <p><i><b>Step 4 — Symptoms:</b> Smooth Framer Motion transitions guide users through their medical data.</i></p>
-  <br>
-  <img src="./Screenshot%202026-04-07%20230957.png" alt="CardioSense Dashboard" width="800" />
+  <img width="1439" height="703" alt="Image" src="https://github.com/user-attachments/assets/dd259d6c-7afc-4514-a396-d8b1e22f0414" />
   <p><i><b>Risk Dashboard:</b> Dynamic score gauge, SHAP waterfall explanation, and longitudinal trend lines.</i></p>
   <br>
-  <img src="./Screenshot%202026-04-07%20231023.png" alt="Recommendation Panel" width="800" />
+  <img width="1507" height="537" alt="Image" src="https://github.com/user-attachments/assets/c3d276c8-6aa8-4d94-806b-265f3962f6b6" />
   <p><i><b>Actionable Guidance:</b> Tiered clinical recommendations with priority flags for patient safety.</i></p>
+  <br>
+  <img width="1461" height="655" alt="Image" src="https://github.com/user-attachments/assets/bd389d8e-1311-469d-b02d-71af6db43e18" />
+  <p><i><b>Risk Trend:</b> Because health isn't a snapshot—it’s a trajectory. This tracking module empowers users to monitor their heart health progress, ensuring that early warnings are caught and acted upon before they become emergencies.</i></p>
 </div>
 
----
-
-## 📈 Model Evaluation Plots
-
-| Confusion Matrix + ROC Curve | SHAP Summary | SHAP Waterfall |
-|:---:|:---:|:---:|
-| <img src="./final_evaluation.png" width="250" /> | <img src="./shap_summary.png" width="250" /> | <img src="./shap_waterfall.png" width="250" /> |
-
----
 ---
 
 ## 🤖 Model Performance
@@ -80,8 +74,8 @@ The model was benchmarked against Logistic Regression, SVM, Gradient Boosting, a
 ### Model Evaluation Plots
 
 | Confusion Matrix + ROC Curve | SHAP Summary | SHAP Waterfall |
-|---|---|---|
-| <!-- Uploading "final_evaluation.png"... --> | <!-- Uploading "shap_summary.png"... --> | <!-- Uploading "shap_waterfall.png"... --> |
+|:---:|:---:|:---:|
+| <img src="./final_evaluation.png" width="250" /> | <img src="./shap_summary.png" width="250" /> | <img src="./shap_waterfall.png" width="250" /> |
 ---
 
 ## 🧠 How SHAP Explainability Works
@@ -91,6 +85,13 @@ Every prediction in CardioSense comes with a full SHAP explanation — not just 
 - **Waterfall chart** — shows each feature's contribution pushing the score up or down for a specific patient
 - **Bar chart** — global feature importance across all predictions
 - **Force plot** — the "push and pull" of medical metrics on the final risk score
+
+<img width="1184" height="1442" alt="Image" src="https://github.com/user-attachments/assets/6aaaf401-8958-4618-8c05-7d7233a90bb1" />
+
+<img width="2487" height="543" alt="Image" src="https://github.com/user-attachments/assets/2c9f8071-bceb-4355-9828-04e3a68515bb" />
+
+<img width="1235" height="890" alt="Image" src="https://github.com/user-attachments/assets/7438a37c-ba8a-47ad-b93d-63a046789e19" />
+
 
 This is what separates CardioSense from a black-box classifier. Patients and clinicians can see exactly which factors are driving the risk.
 
