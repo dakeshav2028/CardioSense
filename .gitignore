@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Data and Models
+*.csv
+*.data
+*.db
+# (excluding .pkl if the model is needed for prediction! Actually we DO need the .pkl files to upload to Render!)
+# DO NOT IGNORE .pkl files for this project as they are required at runtime.
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
