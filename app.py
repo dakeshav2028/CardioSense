@@ -169,3 +169,6 @@ def get_history(user_id: str, db: Session = Depends(get_db)):
 @app.get("/", tags=["Health"])
 def root():
     return {"status": "ok", "message": "Heart Disease Risk Predictor API is running 🫀"}
+@app.route("/ping")
+def ping():
+    return "OK", 200
