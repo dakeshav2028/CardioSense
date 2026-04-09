@@ -11,9 +11,9 @@ const FEATURES = [
 
 const STATS = [
   { value: '1K+', label: 'Patients Trained On' },
-  { value: '91%', label: 'Model Accuracy' },
+  { value: '80%', label: 'Model Accuracy' },
   { value: '13', label: 'Clinical Features' },
-  { value: '<1s', label: 'Prediction Time' },
+  { value: '<30s', label: 'Prediction Time' },
 ];
 
 export default function Home() {
